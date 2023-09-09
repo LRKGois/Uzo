@@ -1,0 +1,2043 @@
+:root{
+    --dl-space-space-halfunit: 8px;
+    --dl-space-space-unit: 16px;
+    --dl-space-space-oneandhalfunits: 24px;
+    --dl-space-space-twounits: 32px;
+    --dl-space-space-threeunits: 48px;
+    --dl-space-space-fourunits: 64px;
+    --dl-space-space-fiveunits: 80px;
+    --dl-space-space-sixunits: 96px;
+
+    --dl-size-size-xsmall: 16px;
+    --dl-size-size-maxwidth: 1328px;
+
+    --dl-color-gray-black: #000000;
+    --dl-color-gray-white: #FFFFFF;
+    --dl-color-gray-700: #999999;
+    --dl-color-yelow-uzo:#D8E000;
+    --dl-color-purple-uzo:#7500C8;
+    --dl-color-darkblue-uzo:#1040B1;
+    --dl-color-lightblue-uzo:#00D9DE;
+}
+
+
+.nav-links-links {
+    gap: var(--dl-space-space-twounits);
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .nav-links-link {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .nav-links-link1 {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .nav-links-link2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .nav-links-link3 {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  @media(max-width: 767px) {
+    .nav-links-links {
+      display: none;
+    }
+  }
+  
+  .tarifrios-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .tarifrios-navbar-interactive {
+    width: 100%;
+    display: flex;
+    position: relative;
+    max-width: var(--dl-size-size-maxwidth);
+    align-items: center;
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .tarifrios-branding {
+    flex: 1;
+    width: 433px;
+    height: 97px;
+    display: flex;
+    max-width: 640px;
+    align-items: flex-start;
+    border-color: #61616B;
+    border-style: hidden;
+    flex-direction: row;
+    padding-bottom: var(--dl-space-space-twounits);
+    justify-content: flex-start;
+    border-bottom-width: 1px;
+  }
+  .tarifrios-navlink {
+    display: contents;
+  }
+  .tarifrios-image {
+    width: 136px;
+    height: 57px;
+    object-fit: cover;
+    text-decoration: none;
+  }
+  .tarifrios-desktop-menu {
+    display: flex;
+  }
+  .tarifrios-nav {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .tarifrios-right {
+    gap: var(--dl-space-space-twounits);
+    height: 105px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .tarifrios-button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tarifrios-work-with-us {
+    cursor: pointer;
+    transition: 0.3s;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    border-radius: 70px;
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-unit);
+    background-color: #D8E000;
+  }
+  .tarifrios-work-with-us:hover {
+    opacity: 0.5;
+  }
+  .tarifrios-text {
+    display: flex;
+    font-size: 20px;
+  }
+  .tarifrios-image1 {
+    width: 100px;
+    display: none;
+    object-fit: cover;
+  }
+  .tarifrios-burger-menu {
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .tarifrios-work-with-us1 {
+    cursor: pointer;
+    transition: 0.3s;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    border-radius: 70px;
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-unit);
+    background-color: rgb(229, 254, 88);
+  }
+  .tarifrios-work-with-us1:hover {
+    opacity: 0.5;
+  }
+  .tarifrios-text01 {
+    display: flex;
+    font-size: 24px;
+  }
+  .tarifrios-image2 {
+    width: 100px;
+    display: none;
+    object-fit: cover;
+  }
+  .tarifrios-mobile-menu {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 32px;
+    z-index: 100;
+    position: fixed;
+    transform: translateX(100%);
+    transition: 0.5s;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+  .tarifrios-nav1 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .tarifrios-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--dl-space-space-threeunits);
+    justify-content: space-between;
+  }
+  .tarifrios-menu-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tarifrios-icon {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+  }
+  .tarifrios-middle {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .tarifrios-links {
+    gap: var(--dl-space-space-twounits);
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    margin-bottom: var(--dl-space-space-twounits);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tarifrios-link {
+    text-transform: uppercase;
+  }
+  .tarifrios-link01 {
+    text-transform: uppercase;
+  }
+  .tarifrios-link02 {
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .tarifrios-link03 {
+    text-transform: uppercase;
+  }
+  .tarifrios-work-with-us2 {
+    cursor: pointer;
+    transition: 0.3s;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    border-radius: 70px;
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-unit);
+    background-color: #D8E000;
+  }
+  .tarifrios-work-with-us2:hover {
+    opacity: 0.5;
+  }
+  .tarifrios-text02 {
+    display: flex;
+    font-size: 20px;
+  }
+  .tarifrios-image3 {
+    width: 100px;
+    display: none;
+    object-fit: cover;
+  }
+  .tarifrios-hero {
+    gap: 120px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    max-width: var(--dl-size-size-maxwidth);
+    align-items: center;
+    padding-top: 140px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    flex-direction: column;
+    padding-bottom: 160px;
+    justify-content: center;
+  }
+  .tarifrios-hero-image {
+    width: 1286px;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    padding-top: var(--dl-space-space-threeunits);
+    padding-left: 3px;
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-threeunits);
+    justify-content: center;
+  }
+  .tarifrios-container01 {
+    width: 100%;
+    height: 337px;
+    display: flex;
+    position: relative;
+    max-width: var(--dl-size-size-maxwidth);
+    align-self: flex-start;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    /* background-image: url("C:\xampp\htdocs\Uzo\public/external/pastedImage-5tzo.png"); */
+    background-image:url("../public/external/Picturecampanhaveraouzoreduzidoxlwebp1445-g0th.png");
+    background-position: center;
+  }
+  .tarifrios-text03 {
+    color: var(--dl-color-gray-white);
+    right: 71px;
+    bottom: 110px;
+    height: auto;
+    z-index: 100;
+    position: absolute;
+    font-size: 20px;
+    align-self: center;
+    font-style: normal;
+    font-weight: 800;
+  }
+  .tarifrios-text06 {
+    top: 141px;
+    color: var(--dl-color-gray-white);
+    right: 66px;
+    height: auto;
+    z-index: 100;
+    position: absolute;
+    font-size: 35px;
+    align-self: center;
+    font-style: normal;
+    font-weight: 800;
+  }
+  .tarifrios-pricing {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #CCCCCC;
+  }
+  .tarifrios-container02 {
+    width: 100%;
+    display: flex;
+    padding: var(--dl-space-space-threeunits);
+    max-width: var(--dl-size-size-maxwidth);
+    align-items: center;
+    justify-content: center;
+  }
+  .tarifrios-pricing-card {
+    width: 100%;
+    height: 580px;
+    display: flex;
+    padding: var(--dl-space-space-threeunits);
+    max-width: 450px;
+    min-height: 450px;
+    transition: 0.3s;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-twounits);
+    justify-content: space-between;
+    background-color: var(--dl-color-gray-white);
+  }
+  .tarifrios-pricing-card:hover {
+    transform: scale(1.02);
+  }
+  .tarifrios-text07 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: var(--dl-space-space-twounits);
+    text-transform: uppercase;
+  }
+  .tarifrios-container03 {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--dl-space-space-twounits);
+    flex-direction: row;
+  }
+  .tarifrios-text08 {
+    font-size: 1.15rem;
+    margin-top: var(--dl-space-space-twounits);
+    font-weight: 300;
+  }
+  .tarifrios-text09 {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  .tarifrios-text10 {
+    font-size: 1.15rem;
+    font-style: normal;
+    margin-top: var(--dl-space-space-twounits);
+    font-weight: 300;
+  }
+  .tarifrios-text11 {
+    color: var(--dl-color-gray-500);
+    font-size: 0.75rem;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .tarifrios-container04 {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: var(--dl-space-space-threeunits);
+    flex-direction: column;
+  }
+  .tarifrios-container05 {
+    height: 148px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+  .tarifrios-text14 {
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-text15 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-text17 {
+    color: var(--dl-color-gray-black);
+    text-decoration: line-through;
+  }
+  .tarifrios-text18 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-container06 {
+    width: 276px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .tarifrios-text19 {
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-button1 {
+    color: var(--dl-color-gray-white);
+    align-self: center;
+    margin-top: auto;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-unit);
+    background-color: var(--dl-color-gray-black);
+  }
+  .tarifrios-pricing-card1 {
+    width: 100%;
+    height: 580px;
+    display: flex;
+    padding: var(--dl-space-space-twounits);
+    max-width: 450px;
+    min-height: 450px;
+    transition: 0.3s;
+    align-items: flex-start;
+    margin-right: var(--dl-space-space-twounits);
+    flex-direction: column;
+    background-color: var(--dl-color-gray-white);
+  }
+  .tarifrios-pricing-card1:hover {
+    transform: scale(1.02);
+  }
+  .tarifrios-text20 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: var(--dl-space-space-twounits);
+    text-transform: uppercase;
+  }
+  .tarifrios-container07 {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--dl-space-space-twounits);
+    flex-direction: row;
+  }
+  .tarifrios-text21 {
+    font-size: 1.15rem;
+    margin-top: var(--dl-space-space-twounits);
+    font-weight: 300;
+  }
+  .tarifrios-text22 {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  .tarifrios-text23 {
+    font-size: 1.15rem;
+    font-style: normal;
+    margin-top: var(--dl-space-space-twounits);
+    font-weight: 300;
+  }
+  .tarifrios-text24 {
+    color: var(--dl-color-gray-500);
+    font-size: 0.75rem;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .tarifrios-container08 {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: var(--dl-space-space-threeunits);
+    flex-direction: column;
+  }
+  .tarifrios-container09 {
+    height: 133px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+  .tarifrios-text27 {
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-text28 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-text30 {
+    color: var(--dl-color-gray-black);
+    text-decoration: line-through;
+  }
+  .tarifrios-text31 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-container10 {
+    width: 276px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .tarifrios-text32 {
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-button2 {
+    color: var(--dl-color-gray-white);
+    align-self: center;
+    margin-top: auto;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-unit);
+    background-color: var(--dl-color-gray-black);
+  }
+  .tarifrios-pricing-card2 {
+    width: 100%;
+    height: 580px;
+    display: flex;
+    padding: var(--dl-space-space-threeunits);
+    max-width: 450px;
+    min-height: 450px;
+    transition: 0.3s;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-twounits);
+    background-color: var(--dl-color-gray-white);
+  }
+  .tarifrios-pricing-card2:hover {
+    transform: scale(1.02);
+  }
+  .tarifrios-container11 {
+    display: flex;
+    margin-top: var(--dl-space-space-fourunits);
+    align-items: center;
+    margin-bottom: var(--dl-space-space-twounits);
+    flex-direction: row;
+  }
+  .tarifrios-text33 {
+    font-size: 1.15rem;
+    margin-top: var(--dl-space-space-twounits);
+    font-weight: 300;
+  }
+  .tarifrios-text34 {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  .tarifrios-text35 {
+    font-size: 1.15rem;
+    font-style: normal;
+    margin-top: var(--dl-space-space-twounits);
+    font-weight: 300;
+  }
+  .tarifrios-text36 {
+    color: var(--dl-color-gray-500);
+    font-size: 0.75rem;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .tarifrios-container12 {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: var(--dl-space-space-threeunits);
+    flex-direction: column;
+  }
+  .tarifrios-container13 {
+    width: 269px;
+    height: 45px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .tarifrios-text39 {
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-container14 {
+    width: 276px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .tarifrios-text40 {
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-button3 {
+    color: var(--dl-color-gray-white);
+    align-self: center;
+    margin-top: auto;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-unit);
+    background-color: var(--dl-color-gray-black);
+  }
+  .tarifrios-steps {
+    width: 100%;
+    height: 409px;
+    display: flex;
+    padding: var(--dl-space-space-unit);
+    max-width: 100%;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D8E000;
+  }
+  .tarifrios-container15 {
+    width: 100%;
+    height: 356px;
+    display: flex;
+    max-width: var(--dl-size-size-maxwidth);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tarifrios-container16 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tarifrios-text41 {
+    color: var(--dl-color-gray-black);
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  .tarifrios-container17 {
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  .tarifrios-step {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .tarifrios-container18 {
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: 2px;
+    padding-right: 2px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .tarifrios-container19 {
+    flex: 0 0 auto;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+    display: flex;
+    align-items: center;
+    border-radius: var(--dl-radius-radius-round);
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f5f5f5ff;
+  }
+  .tarifrios-icon02 {
+    fill: var(--dl-color-gray-500);
+    width: 24px;
+    height: 24px;
+  }
+  .tarifrios-picture {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 0 45.25px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .tarifrios-successuzoiconepng {
+    width: 292px;
+    height: 51px;
+  }
+  .tarifrios-container20 {
+    display: flex;
+    align-items: center;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-text42 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-text43 {
+    color: var(--dl-color-gray-500);
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  .tarifrios-step1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .tarifrios-container21 {
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: 2px;
+    padding-right: 2px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .tarifrios-container22 {
+    flex: 0 0 auto;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+    display: flex;
+    align-items: center;
+    border-radius: var(--dl-radius-radius-round);
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f5f5f5ff;
+  }
+  .tarifrios-icon04 {
+    fill: var(--dl-color-gray-500);
+    width: 24px;
+    height: 24px;
+  }
+  .tarifrios-picture1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 0 45.25px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .tarifrios-velocidademoveluzoiconepng {
+    width: 292px;
+    height: 49px;
+  }
+  .tarifrios-container23 {
+    display: flex;
+    align-items: center;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-text44 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-text45 {
+    color: var(--dl-color-gray-500);
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  .tarifrios-step2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .tarifrios-container24 {
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: 2px;
+    padding-right: 2px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .tarifrios-container25 {
+    flex: 0 0 auto;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+    display: flex;
+    align-items: center;
+    border-radius: var(--dl-radius-radius-round);
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f5f5f5ff;
+  }
+  .tarifrios-icon06 {
+    fill: var(--dl-color-gray-500);
+    width: 24px;
+    height: 24px;
+  }
+  .tarifrios-picture2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 0 45.25px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .tarifrios-faturaeletronicauzoiconepng {
+    width: 292px;
+    height: 45px;
+  }
+  .tarifrios-container26 {
+    display: flex;
+    align-items: center;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-text48 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-text49 {
+    color: var(--dl-color-gray-500);
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  .tarifrios-step3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .tarifrios-container27 {
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: 2px;
+    padding-right: 2px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .tarifrios-container28 {
+    flex: 0 0 auto;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+    display: flex;
+    align-items: center;
+    border-radius: var(--dl-radius-radius-round);
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f5f5f5ff;
+  }
+  .tarifrios-icon09 {
+    fill: var(--dl-color-gray-500);
+    width: 24px;
+    height: 24px;
+    align-self: center;
+  }
+  .tarifrios-picture3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 0 45.25px;
+    align-items: center;
+    justify-content: center;
+  }
+  .tarifrios-consultafaturasuzoiconepng {
+    width: 292px;
+    height: 49px;
+  }
+  .tarifrios-container29 {
+    display: flex;
+    align-items: center;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-text52 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-text53 {
+    color: var(--dl-color-gray-500);
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  .tarifrios-vantagens-uzo {
+    width: 100%;
+    height: 471px;
+    display: flex;
+    padding: var(--dl-space-space-threeunits);
+    max-width: var(--dl-size-size-maxwidth);
+    align-items: center;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .tarifrios-column {
+    width: 1020px;
+    height: 430px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tarifrios-row {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tarifrios-text54 {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  .tarifrios-row1 {
+    gap: var(--dl-space-space-threeunits);
+    width: 100%;
+    height: 292px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tarifrios-stat {
+    display: flex;
+    padding: var(--dl-space-space-twounits);
+    align-items: center;
+    flex-direction: column;
+  }
+  .tarifrios-image4 {
+    width: 200px;
+    object-fit: cover;
+  }
+  .tarifrios-text55 {
+    font-size: 1.5rem;
+    margin-top: var(--dl-space-space-halfunit);
+    text-align: center;
+  }
+  .tarifrios-text56 {
+    color: var(--dl-color-gray-700);
+    font-size: 0.75rem;
+    margin-top: var(--dl-space-space-halfunit);
+    text-align: center;
+  }
+  .tarifrios-stat1 {
+    display: flex;
+    padding: var(--dl-space-space-twounits);
+    align-items: center;
+    flex-direction: column;
+  }
+  .tarifrios-image5 {
+    width: 200px;
+    object-fit: cover;
+  }
+  .tarifrios-text57 {
+    font-size: 1.5rem;
+    margin-top: var(--dl-space-space-halfunit);
+    text-align: center;
+  }
+  .tarifrios-text58 {
+    color: var(--dl-color-gray-700);
+    font-size: 0.75rem;
+    margin-top: var(--dl-space-space-halfunit);
+    text-align: center;
+  }
+  .tarifrios-stat2 {
+    display: flex;
+    padding: var(--dl-space-space-twounits);
+    align-items: center;
+    flex-direction: column;
+  }
+  .tarifrios-image6 {
+    width: 200px;
+    object-fit: cover;
+  }
+  .tarifrios-text59 {
+    font-size: 1.5rem;
+    margin-top: var(--dl-space-space-halfunit);
+    text-align: center;
+  }
+  .tarifrios-text60 {
+    color: var(--dl-color-gray-700);
+    font-size: 0.75rem;
+    margin-top: var(--dl-space-space-halfunit);
+    text-align: center;
+  }
+  .tarifrios-footer {
+    width: 100%;
+    display: flex;
+    max-width: auto;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-fiveunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-fiveunits);
+    background-color: #00D9DE;
+  }
+  .tarifrios-content {
+    gap: var(--dl-space-space-fiveunits);
+    width: 100%;
+    height: 428px;
+    display: flex;
+    max-width: var(--dl-size-size-maxwidth);
+    align-self: center;
+    align-items: center;
+    padding-top: var(--dl-space-space-threeunits);
+    border-color: #61616B;
+    border-style: solid;
+    flex-direction: row;
+    padding-bottom: 52px;
+    justify-content: flex-start;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+  }
+  .tarifrios-container30 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+  .tarifrios-links-row {
+    gap: 128px;
+    width: 100%;
+    display: flex;
+    align-self: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .tarifrios-links-column {
+    width: 350px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .tarifrios-text61 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .tarifrios-link04 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link04:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-link05 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link05:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-link06 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link06:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-link07 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link07:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-link08 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link08:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-link09 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link09:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-link10 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link10:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-link11 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link11:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-links-column1 {
+    width: 350px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .tarifrios-text62 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .tarifrios-link12 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link12:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-link13 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link13:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-link14 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link14:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-link15 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link15:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-link16 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link16:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-link17 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link17:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-link18 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link18:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-links-column2 {
+    width: 350px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .tarifrios-text63 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .tarifrios-link19 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link19:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-link20 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link20:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-link21 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link21:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-link22 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link22:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-link23 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link23:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-link24 {
+    color: rgb(39, 39, 45);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  .tarifrios-link24:hover {
+    opacity: 0.7;
+  }
+  .tarifrios-lists-row {
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .tarifrios-li {
+    color: var(--dl-color-gray-black);
+    padding-left: 20px;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+  }
+  .tarifrios-li1 {
+    margin-left: 100px;
+    list-style-type: none;
+    list-style-position: outside;
+  }
+  .tarifrios-li2 {
+    margin-left: 100px;
+    list-style-type: none;
+    list-style-position: outside;
+  }
+  .tarifrios-li3 {
+    margin-left: 100px;
+    list-style-type: none;
+    list-style-position: outside;
+  }
+  .tarifrios-li4 {
+    margin-left: 100px;
+    list-style-type: none;
+    list-style-position: outside;
+  }
+  @media(max-width: 991px) {
+    .tarifrios-navbar-interactive {
+      gap: var(--dl-space-space-fourunits);
+      width: 100%;
+      justify-content: center;
+    }
+    .tarifrios-desktop-menu {
+      display: none;
+    }
+    .tarifrios-text {
+      line-height: 30px;
+    }
+    .tarifrios-burger-menu {
+      display: flex;
+    }
+    .tarifrios-work-with-us1 {
+      background-color: #D8E000;
+    }
+    .tarifrios-text01 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    .tarifrios-link {
+      text-transform: uppercase;
+    }
+    .tarifrios-link01 {
+      text-transform: uppercase;
+    }
+    .tarifrios-link02 {
+      text-transform: uppercase;
+    }
+    .tarifrios-link03 {
+      text-transform: uppercase;
+    }
+    .tarifrios-text02 {
+      line-height: 30px;
+    }
+    .tarifrios-hero {
+      gap: var(--dl-space-space-fourunits);
+      width: 100%;
+      height: 350px;
+      padding-top: var(--dl-space-space-threeunits);
+      padding-bottom: var(--dl-space-space-threeunits);
+    }
+    .tarifrios-hero-image {
+      width: 100%;
+      padding-top: var(--dl-space-space-unit);
+      padding-left: var(--dl-space-space-threeunits);
+      padding-right: var(--dl-space-space-threeunits);
+      padding-bottom: var(--dl-space-space-unit);
+    }
+    .tarifrios-container01 {
+      width: 100%;
+    }
+    .tarifrios-text03 {
+      right: 50px;
+      bottom: 68px;
+      position: absolute;
+      font-size: 15px;
+      align-self: flex-end;
+    }
+    .tarifrios-text06 {
+      top: 198px;
+      right: 49px;
+      font-size: 25px;
+    }
+    .tarifrios-pricing-card {
+      width: 100%;
+      padding: var(--dl-space-space-twounits);
+      max-width: 100%;
+      align-items: center;
+    }
+    .tarifrios-pricing-card1 {
+      width: 100%;
+      max-width: 100%;
+      align-items: center;
+    }
+    .tarifrios-pricing-card2 {
+      width: 100%;
+      max-width: 100%;
+      align-items: center;
+    }
+    .tarifrios-steps {
+      height: 533px;
+    }
+    .tarifrios-container15 {
+      width: 100%;
+      height: 474px;
+      margin-right: 0px;
+      flex-direction: column;
+    }
+    .tarifrios-text41 {
+      text-align: center;
+    }
+    .tarifrios-container17 {
+      width: 100%;
+      height: 368px;
+      align-items: flex-start;
+      padding-left: var(--dl-space-space-fiveunits);
+      flex-direction: column;
+    }
+    .tarifrios-step {
+      flex-direction: row;
+      justify-content: center;
+    }
+    .tarifrios-container18 {
+      width: var(--dl-size-size-small);
+      height: auto;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .tarifrios-container20 {
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    .tarifrios-text42 {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    .tarifrios-text43 {
+      color: var(--dl-color-gray-500);
+    }
+    .tarifrios-step1 {
+      flex-direction: row;
+    }
+    .tarifrios-container21 {
+      width: var(--dl-size-size-small);
+      height: auto;
+      align-items: center;
+      justify-content: center;
+    }
+    .tarifrios-container23 {
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    .tarifrios-text44 {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    .tarifrios-text45 {
+      color: var(--dl-color-gray-500);
+    }
+    .tarifrios-step2 {
+      width: 735px;
+      flex-direction: row;
+    }
+    .tarifrios-container24 {
+      width: var(--dl-size-size-small);
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .tarifrios-container26 {
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    .tarifrios-text48 {
+      font-size: 1.5rem;
+    }
+    .tarifrios-text49 {
+      color: var(--dl-color-gray-500);
+      font-size: 0.75rem;
+    }
+    .tarifrios-step3 {
+      flex-direction: row;
+    }
+    .tarifrios-container27 {
+      width: var(--dl-size-size-small);
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .tarifrios-container29 {
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    .tarifrios-text52 {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    .tarifrios-text53 {
+      color: var(--dl-color-gray-500);
+      font-size: 0.75rem;
+    }
+    .tarifrios-column {
+      width: 977px;
+      margin-right: 0px;
+    }
+    .tarifrios-footer {
+      height: 1089px;
+      padding-top: var(--dl-space-space-fourunits);
+      padding-left: var(--dl-space-space-oneandhalfunits);
+      margin-bottom: 0px;
+      padding-right: var(--dl-space-space-oneandhalfunits);
+      padding-bottom: var(--dl-space-space-threeunits);
+    }
+    .tarifrios-content {
+      gap: var(--dl-space-space-threeunits);
+      height: 966px;
+      align-items: flex-start;
+      padding-top: var(--dl-space-space-threeunits);
+      flex-direction: column;
+      padding-bottom: var(--dl-space-space-threeunits);
+    }
+    .tarifrios-links-row {
+      gap: var(--dl-space-space-oneandhalfunits);
+      flex-direction: column;
+    }
+    .tarifrios-links-column1 {
+      margin-left: 20px;
+    }
+    .tarifrios-links-column2 {
+      margin-left: 20px;
+    }
+    .tarifrios-li {
+      padding-left: 20px;
+    }
+    .tarifrios-li1 {
+      margin-left: 50px;
+    }
+    .tarifrios-li2 {
+      margin-left: 50px;
+    }
+    .tarifrios-li3 {
+      margin-left: 50px;
+    }
+    .tarifrios-li4 {
+      margin-left: 50px;
+    }
+  }
+  @media(max-width: 767px) {
+    .tarifrios-navbar-interactive {
+      width: 100%;
+      padding-top: var(--dl-space-space-twounits);
+      justify-content: space-between;
+    }
+    .tarifrios-work-with-us {
+      padding-left: var(--dl-space-space-unit);
+      padding-right: var(--dl-space-space-unit);
+    }
+    .tarifrios-text {
+      display: none;
+    }
+    .tarifrios-image1 {
+      width: 16px;
+      height: 14px;
+      display: flex;
+    }
+    .tarifrios-burger-menu {
+      align-self: flex-start;
+    }
+    .tarifrios-work-with-us1 {
+      padding-left: var(--dl-space-space-unit);
+      padding-right: var(--dl-space-space-unit);
+      background-color: #D8E000;
+    }
+    .tarifrios-text01 {
+      display: none;
+    }
+    .tarifrios-image2 {
+      width: 16px;
+      height: 14px;
+      display: flex;
+    }
+    .tarifrios-work-with-us2 {
+      padding-left: var(--dl-space-space-unit);
+      padding-right: var(--dl-space-space-unit);
+    }
+    .tarifrios-image3 {
+      width: 16px;
+      height: 14px;
+      display: none;
+    }
+    .tarifrios-hero {
+      height: 350px;
+    }
+    .tarifrios-hero-image {
+      width: 766px;
+      height: 369px;
+      align-self: center;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .tarifrios-container01 {
+      width: 645px;
+      height: 236px;
+      min-width: 100%;
+      min-height: var(--dl-size-size-small);
+    }
+    .tarifrios-text03 {
+      right: 46px;
+      bottom: 46px;
+    }
+    .tarifrios-text06 {
+      top: 128px;
+      right: 43px;
+    }
+    .tarifrios-container02 {
+      flex-flow: column;
+      padding-left: var(--dl-space-space-twounits);
+      padding-right: var(--dl-space-space-twounits);
+    }
+    .tarifrios-pricing-card {
+      width: 100%;
+      max-width: 450px;
+      align-items: center;
+      margin-right: 0px;
+      margin-bottom: var(--dl-space-space-twounits);
+    }
+    .tarifrios-pricing-card1 {
+      width: 100%;
+      max-width: 450px;
+      align-items: center;
+      margin-right: 0px;
+      margin-bottom: var(--dl-space-space-twounits);
+    }
+    .tarifrios-pricing-card2 {
+      width: 100%;
+      max-width: 450px;
+      align-items: center;
+      margin-right: 0px;
+      margin-bottom: var(--dl-space-space-twounits);
+    }
+    .tarifrios-steps {
+      height: 865px;
+      align-self: center;
+      padding-left: var(--dl-space-space-twounits);
+      padding-right: var(--dl-space-space-twounits);
+    }
+    .tarifrios-container15 {
+      height: 520px;
+    }
+    .tarifrios-container17 {
+      width: 100%;
+      align-items: flex-start;
+      padding-left: var(--dl-space-space-fiveunits);
+      flex-direction: column;
+    }
+    .tarifrios-step {
+      width: 100%;
+      height: auto;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .tarifrios-container18 {
+      width: var(--dl-size-size-small);
+      height: auto;
+      align-self: stretch;
+      padding-top: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      flex-direction: column;
+      padding-bottom: 2px;
+      justify-content: center;
+    }
+    .tarifrios-container20 {
+      width: 100%;
+      align-items: flex-start;
+      padding-top: var(--dl-space-space-twounits);
+      flex-direction: column;
+      padding-bottom: var(--dl-space-space-twounits);
+      justify-content: space-between;
+    }
+    .tarifrios-text42 {
+      margin-top: var(--dl-space-space-twounits);
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: var(--dl-space-space-unit);
+    }
+    .tarifrios-text43 {
+      text-align: left;
+    }
+    .tarifrios-step1 {
+      width: 100%;
+      height: auto;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .tarifrios-container21 {
+      width: var(--dl-size-size-small);
+      height: auto;
+      align-self: stretch;
+      padding-top: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      flex-direction: column;
+      padding-bottom: 2px;
+      justify-content: center;
+    }
+    .tarifrios-container23 {
+      width: 100%;
+      align-items: flex-start;
+      padding-top: var(--dl-space-space-twounits);
+      flex-direction: column;
+      padding-bottom: var(--dl-space-space-twounits);
+      justify-content: space-between;
+    }
+    .tarifrios-text44 {
+      margin-top: var(--dl-space-space-twounits);
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: var(--dl-space-space-unit);
+    }
+    .tarifrios-text45 {
+      text-align: left;
+    }
+    .tarifrios-step2 {
+      width: 100%;
+      height: auto;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .tarifrios-container24 {
+      width: var(--dl-size-size-small);
+      height: auto;
+      align-self: stretch;
+      padding-top: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      flex-direction: column;
+      padding-bottom: 2px;
+      justify-content: center;
+    }
+    .tarifrios-container26 {
+      width: 100%;
+      align-items: flex-start;
+      padding-top: var(--dl-space-space-twounits);
+      flex-direction: column;
+      padding-bottom: var(--dl-space-space-twounits);
+      justify-content: space-between;
+    }
+    .tarifrios-text48 {
+      margin-top: var(--dl-space-space-twounits);
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: var(--dl-space-space-unit);
+    }
+    .tarifrios-text49 {
+      text-align: left;
+    }
+    .tarifrios-step3 {
+      width: 100%;
+      height: auto;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .tarifrios-container27 {
+      width: var(--dl-size-size-small);
+      height: auto;
+      align-self: stretch;
+      padding-top: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      flex-direction: column;
+      padding-bottom: 2px;
+      justify-content: center;
+    }
+    .tarifrios-container29 {
+      width: 100%;
+      align-items: flex-start;
+      padding-top: var(--dl-space-space-twounits);
+      flex-direction: column;
+      padding-bottom: var(--dl-space-space-twounits);
+      justify-content: space-between;
+    }
+    .tarifrios-text52 {
+      margin-top: var(--dl-space-space-twounits);
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: var(--dl-space-space-unit);
+    }
+    .tarifrios-text53 {
+      text-align: left;
+    }
+    .tarifrios-vantagens-uzo {
+      height: 918px;
+      padding-left: 14px;
+      padding-right: 12px;
+    }
+    .tarifrios-column {
+      width: 706px;
+      height: 877px;
+    }
+    .tarifrios-row {
+      align-self: flex-start;
+    }
+    .tarifrios-text54 {
+      text-align: center;
+    }
+    .tarifrios-row1 {
+      gap: var(--dl-space-space-fourunits);
+      width: 100%;
+      height: 789px;
+      max-width: var(--dl-size-size-maxwidth);
+      align-self: center;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .tarifrios-stat {
+      width: 712px;
+      padding: var(--dl-space-space-unit);
+    }
+    .tarifrios-text55 {
+      text-align: center;
+    }
+    .tarifrios-stat1 {
+      padding: var(--dl-space-space-unit);
+    }
+    .tarifrios-text57 {
+      text-align: center;
+    }
+    .tarifrios-stat2 {
+      padding: var(--dl-space-space-unit);
+    }
+    .tarifrios-text59 {
+      text-align: center;
+    }
+    .tarifrios-links-column2 {
+      padding-left: 0px;
+    }
+    .tarifrios-li {
+      padding-left: 20px;
+    }
+  }
+  @media(max-width: 479px) {
+    .tarifrios-navbar-interactive {
+      width: 100%;
+      max-width: var(--dl-size-size-maxwidth);
+    }
+    .tarifrios-mobile-menu {
+      padding: 16px;
+    }
+    .tarifrios-link02 {
+      text-transform: uppercase;
+    }
+    .tarifrios-text02 {
+      display: flex;
+    }
+    .tarifrios-image3 {
+      display: none;
+    }
+    .tarifrios-hero {
+      height: 350px;
+    }
+    .tarifrios-hero-image {
+      width: 100%;
+      min-width: 100%;
+    }
+    .tarifrios-container01 {
+      width: 374px;
+    }
+    .tarifrios-text03 {
+      z-index: 50;
+    }
+    .tarifrios-text06 {
+      z-index: 50;
+    }
+    .tarifrios-container02 {
+      padding-top: var(--dl-space-space-twounits);
+      padding-left: var(--dl-space-space-unit);
+      padding-right: var(--dl-space-space-unit);
+      padding-bottom: var(--dl-space-space-twounits);
+    }
+    .tarifrios-pricing-card2 {
+      margin-bottom: 0px;
+    }
+    .tarifrios-steps {
+      padding-top: var(--dl-space-space-twounits);
+      padding-left: var(--dl-space-space-unit);
+      margin-bottom: 0px;
+      padding-right: var(--dl-space-space-unit);
+      padding-bottom: var(--dl-space-space-twounits);
+    }
+    .tarifrios-container15 {
+      height: 456px;
+      align-self: center;
+      align-items: center;
+      justify-content: center;
+    }
+    .tarifrios-text41 {
+      font-size: 1.5rem;
+    }
+    .tarifrios-container17 {
+      width: 100%;
+      padding-left: 0px;
+    }
+    .tarifrios-container18 {
+      justify-content: center;
+    }
+    .tarifrios-container20 {
+      padding-top: var(--dl-space-space-twounits);
+      padding-left: var(--dl-space-space-unit);
+      padding-right: 0px;
+      padding-bottom: var(--dl-space-space-twounits);
+    }
+    .tarifrios-text42 {
+      margin-left: 0px;
+      margin-right: var(--dl-space-space-twounits);
+    }
+    .tarifrios-container21 {
+      justify-content: center;
+    }
+    .tarifrios-container23 {
+      padding-top: var(--dl-space-space-twounits);
+      padding-left: var(--dl-space-space-unit);
+      padding-right: 0px;
+      padding-bottom: var(--dl-space-space-twounits);
+    }
+    .tarifrios-text44 {
+      margin-left: 0px;
+      margin-right: var(--dl-space-space-twounits);
+    }
+    .tarifrios-container24 {
+      justify-content: center;
+    }
+    .tarifrios-container26 {
+      padding-top: var(--dl-space-space-twounits);
+      padding-left: var(--dl-space-space-unit);
+      padding-right: 0px;
+      padding-bottom: var(--dl-space-space-twounits);
+    }
+    .tarifrios-text48 {
+      margin-left: 0px;
+      margin-right: var(--dl-space-space-twounits);
+    }
+    .tarifrios-container27 {
+      justify-content: center;
+    }
+    .tarifrios-container29 {
+      padding-top: var(--dl-space-space-twounits);
+      padding-left: var(--dl-space-space-unit);
+      padding-right: 0px;
+      padding-bottom: var(--dl-space-space-twounits);
+    }
+    .tarifrios-text52 {
+      margin-left: 0px;
+      margin-right: var(--dl-space-space-twounits);
+    }
+    .tarifrios-vantagens-uzo {
+      height: 1018px;
+      align-items: center;
+      padding-top: var(--dl-space-space-twounits);
+      padding-left: var(--dl-space-space-unit);
+      padding-right: var(--dl-space-space-unit);
+      flex-direction: column;
+      padding-bottom: var(--dl-space-space-twounits);
+    }
+    .tarifrios-column {
+      width: 434px;
+      height: 956px;
+    }
+    .tarifrios-text54 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    .tarifrios-row1 {
+      height: 772px;
+      align-self: center;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .tarifrios-stat {
+      width: 437px;
+      margin-right: 0px;
+    }
+    .tarifrios-footer {
+      height: 1145px;
+    }
+    .tarifrios-content {
+      height: 1041px;
+    }
+    .tarifrios-lists-row {
+      gap: var(--dl-space-space-halfunit);
+      width: 100%;
+      height: 123px;
+      align-self: flex-start;
+      margin-top: var(--dl-space-space-twounits);
+      align-items: center;
+      margin-right: 0px;
+      flex-direction: column;
+    }
+    .tarifrios-li {
+      padding-left: 0px;
+    }
+    .tarifrios-li1 {
+      margin-left: 10px;
+    }
+    .tarifrios-li2 {
+      margin-left: 10px;
+    }
+    .tarifrios-li3 {
+      margin-left: 10px;
+    }
+    .tarifrios-li4 {
+      margin-left: 10px;
+    }
+  }
+  
